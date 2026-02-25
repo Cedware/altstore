@@ -1,34 +1,25 @@
 {
   "name": "Cedware Apps",
-  "identifier": "de.cedware.altstore-source",
-  "subtitle": "Apps by Cedware",
-  "description": "AltStore source for Cedware apps.",
-  "iconURL": "",
-  "headerURL": "",
-  "website": "",
-  "sourceURL": "https://raw.githubusercontent.com/Cedware/altstore/refs/heads/main/source.json",
   "apps": [
     {
       "name": "Cookbook.AI",
       "bundleIdentifier": "de.cedware.Cookbook-AI",
       "developerName": "Cedware",
-      "subtitle": "AI-powered cookbook",
       "localizedDescription": "Cookbook.AI - Your AI-powered cookbook assistant.",
-      "iconURL": "",
-      "tintColor": "F54F32",
-      "screenshotURLs": [],
+      "iconURL": "https://raw.githubusercontent.com/Cedware/altstore/main/icon.png",
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-02-25T00:00:00-00:00",
-          "size": 589178,
-          "sha256": "08fdf46fdfd3a4cbc8acfc0a54228a72ab9db0e7ab93b92fab5eea4929869958",
+          "buildVersion": "1",
+          "date": "2026-02-25",
           "downloadURL": "https://github.com/Cedware/altstore/releases/download/0.0.1/Cookbookai2.ipa",
-          "localizedDescription": "Initial release.",
-          "minOSVersion": "16.0"
+          "size": 589178
         }
       ],
-      "appPermissions": {}
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
   ],
   "news": []
